@@ -28,3 +28,6 @@ async def update_item(item_id: int, item: Item):
 class Person:
     def __init__(self, name):
         self.name = name
+
+    def sayhi(self):
+        print(self.name + 'Say hi!')
