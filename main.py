@@ -24,3 +24,6 @@ async def update_item(item_id: int, item: Annotated[Item, Body(embed=True)]):
 async def update_item(item_id: int, item: Item):
     """Some doc string to change"""
     return None
+
+class Person:
+    pass
