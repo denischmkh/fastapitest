@@ -22,4 +22,5 @@ async def update_item(item_id: int, item: Annotated[Item, Body(embed=True)]):
 
 @app.put("/items/{item_id}")
 async def update_item(item_id: int, item: Item):
+    """Some doc string to change"""
     return None
